@@ -7,8 +7,8 @@ import java.util.UUID
 
 @Service
 class MessageService(
-    val validator: MessageValidator,
-    val repository: MessageRepository,
+    private val validator: MessageValidator,
+    private val repository: MessageRepository,
 ) {
     fun findAll(): List<Message> =
         repository.findAll()

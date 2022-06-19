@@ -1,6 +1,7 @@
-package me.ingannatore.pocs.commons.errors
+package me.ingannatore.pocs.commons.exceptions
 
-import me.ingannatore.pocs.commons.exceptions.ApplicationException
+import me.ingannatore.pocs.commons.errors.ErrorResponse
+import me.ingannatore.pocs.commons.errors.ErrorResponseFactory
 import org.springframework.core.Ordered
 import org.springframework.core.annotation.Order
 import org.springframework.http.HttpStatus
